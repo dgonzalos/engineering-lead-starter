@@ -1,0 +1,13 @@
+# Review with corporate IT before using on a managed Mac.
+brew "git"
+brew "gh"
+brew "jq"
+brew "fzf"
+brew "ripgrep"
+brew "fd"
+brew "fnm"
+brew "starship"
+brew "shellcheck"
+
+cask "visual-studio-code"
+cask "iterm2"

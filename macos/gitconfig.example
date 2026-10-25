@@ -1,0 +1,12 @@
+# Copy only approved settings into ~/.gitconfig; no company or personal identity here.
+[init]
+    defaultBranch = main
+[pull]
+    ff = only
+[fetch]
+    prune = true
+[core]
+    autocrlf = input
+[rerere]
+    enabled = true
+# Add name/email only after verifying the corporate account and repository policy.
